@@ -6,7 +6,7 @@
 
 /** @namespace */
 jsts = {
-  version: '0.13.3',
+  version: '0.17.0',
   /** @namespace */
   algorithm: {
     /** @namespace */
@@ -53,12 +53,16 @@ jsts = {
     /** @namespace */
     distance: {},
     /** @namespace */
+    linemerge: {},
+    /** @namespace */
     overlay: {
       /** @namespace */
       snap: {}
     },
     /** @namespace */
     polygonize: {},
+    /** @namespace */
+    predicate: {},
     /** @namespace */
     relate: {},
     /** @namespace */
@@ -69,12 +73,16 @@ jsts = {
   /** @namespace */
   planargraph: {},
   /** @namespace */
+  precision: {},
+  /** @namespace */
   simplify: {},
   /** @namespace */
   triangulate: {
     /** @namespace */
     quadedge: {}
   },
+  /** @namespace */
+  densify: {},
   /** @namespace */
   util: {}
 };

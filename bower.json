@@ -1,0 +1,25 @@
+{
+    "name": "jsts",
+    "main": [
+        "lib/javascript.util.min.js",
+        "lib/jsts.min.js"
+    ],
+    "license": "LGPL",
+    "ignore": [
+        "authors.txt",
+        "bower.json",
+        "build",
+        "ChangeLog",
+        "examples",
+        "index.js",
+        "license-notice.txt",
+        "license.txt",
+        "package.json",
+        "README.md",
+        "src",
+        "test",
+        "testxml",
+        "tools",
+        "validationsuite"
+    ]
+}

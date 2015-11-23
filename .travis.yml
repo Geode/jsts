@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4.1"
+sudo: false
+install: 
+  - pip install --user jstools
+  - npm install
+script: 
+  - ./build.sh
+  - npm test
